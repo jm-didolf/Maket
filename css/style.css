@@ -34,6 +34,10 @@
         display: flex !important;
     }
 
+    .title__second-title--hiden{
+        display:none;
+    }
+
     .first-block__full-text--visible::after {
         content: 'ТЕСТ тттт';
         display: block;
@@ -72,6 +76,13 @@
     first-block__img {
         order: 1;
         margin-left: 20px;
+    }
+
+
+    .menu {
+        white-space: nowrap;
+        flex-wrap: nowrap !important;
+        overflow: scroll;
     }
 
 }
@@ -141,8 +152,15 @@ body {
 
 }
 
+.title__main-title{
+    margin-right: auto;
+}
+
 .title__highlight {
     margin-right: 12px;
+}
+.title__second-title:nth-child(2n){
+    padding: 0 10px;
 }
 
 .menu {
@@ -151,7 +169,7 @@ body {
     display: flex;
 
     flex-wrap: wrap;
-    overflow: scroll;
+
     white-space: nowrap;
 
 }
