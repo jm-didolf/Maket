@@ -85,7 +85,7 @@
     .menu {
         overflow: scroll;
         flex-wrap: nowrap !important;
-
+        white-space: nowrap;
     }
 
     .test {
