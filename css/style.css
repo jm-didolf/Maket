@@ -1,18 +1,20 @@
 @font-face {
     font-family: 'TT Lakes';
-    src: url(TTLakes-Italic.eot?#iefix) format("eot"),
-    url(TTLakes-Italic.woff) format("woff"),
-    url(TTLakes-Italic.ttf) format("truetype");
+    src: url(TTLakes-Bold.eot?#iefix) format("eot"),
+    url(TTLakes-Bold.woff) format("woff"),
+    url(TTLakes-Bold.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: "TT Lakes", Arial, sans-serif;
+    font-family: TT Lakes, Arial, sans-serif;
     background-color: #F8F8F8;
     width: 360px;
     border: 1px solid blue;
 }
+
+
 
 .upper-menu {
     width: auto;
