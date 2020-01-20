@@ -7,6 +7,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'TT Lakes-regular';
+    src: url(TTLakesCondensed-Regular.eot?#iefix) format("eot"),
+    url(TTLakesCondensed-Regular.woff) format("woff"),
+    url(TTLakesCondensed-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 body {
     background-color: #F8F8F8;
     width: 360px;
@@ -32,6 +43,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 24px;
+    letter-spacing: -0.6px;
 
 }
 
@@ -71,12 +83,24 @@ body {
 
 }
 
+
 .first-block__description {
+    font-family: TT Lakes-regular, Arial, sans-serif;
     padding: 0 16px;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    line-height: 18px;
 
 }
 
 .first-block__read-more{
     display: flex;
     align-items: center;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.first-block__img img{
+    width: 100%;
+    margin: 27px 0 27px 0;
 }
