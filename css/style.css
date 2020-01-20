@@ -83,7 +83,7 @@
     }
 
     .menu {
-        overflow: visible;
+        overflow: scroll;
         flex-wrap: nowrap !important;
 
     }
