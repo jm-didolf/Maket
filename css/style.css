@@ -17,9 +17,31 @@
     font-style: normal;
 }
 
+
+    .upper-menu{
+        display: none !important;
+    }
+
+    .test {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        align-content: center;
+    }
+
+
+
 @media screen and (max-width: 768px) {
     body {
         width: 768px;
+    }
+
+    .upper-menu{
+        display: flex !important;
+    }
+
+    .test {
+        display: none;
     }
 
     .icon-call{
@@ -38,6 +60,19 @@
     body {
         width: 360px;
 
+    }
+
+    .menu {
+        overflow: visible;
+        flex-wrap: nowrap !important;
+    }
+
+    .test {
+        display: none;
+    }
+
+    .upper-menu{
+        display: flex !important;
     }
 
 
@@ -93,7 +128,8 @@ body {
     height: 40px;
     margin-top: 24px;
     display: flex;
-    width: 504px;
+
+    flex-wrap: wrap;
 
 }
 
