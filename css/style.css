@@ -24,6 +24,7 @@ body {
 }
 
 .title {
+    font-family: "TT Lakes", italic, serif;
     height: 40px;
     display: flex;
     align-items: center;
