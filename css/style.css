@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'TT Lakes';
-    src: url(/include/fonts/TTLakes/TTLakes-Italic.eot) format("eot"),
-    url(/include/fonts/TTLakes/TTLakes-Italic.woff) format("woff"),
-    url(/include/fonts/TTLakes/TTLakes-Italic.ttf) format("truetype");
+    src: url(/Maket/include/fonts/TTLakes/TTLakes-Italic.eot?#iefix) format("eot"),
+    url(/Maket/include/fonts/TTLakes/TTLakes-Italic.woff) format("woff"),
+    url(/Maket/include/fonts/TTLakes/TTLakes-Italic.ttf) format("truetype");
     font-weight: normal;
     font-style: italic;
 }
