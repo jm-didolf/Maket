@@ -29,15 +29,15 @@
         align-content: center;
     }
 
-
-
 @media screen and (max-width: 768px) {
-    body {
-        width: 768px;
-    }
-
     .upper-menu{
         display: flex !important;
+    }
+
+    .first-block__full-text--visible::after {
+        content: 'ТЕСТ тттт';
+        display: block;
+        margin-top: 20px;
     }
 
     .test {
@@ -52,7 +52,27 @@
         padding: 0 20px;
     }
 
+    .first-block {
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
 
+    .first-block__description {
+        order: 0;
+        width: 312px;
+        margin-top: 24px;
+    }
+
+    .first-block__read-more{
+        order: 2;
+
+    }
+
+    first-block__img {
+        order: 1;
+        margin-left: 20px;
+    }
 
 }
 
@@ -65,6 +85,7 @@
     .menu {
         overflow: visible;
         flex-wrap: nowrap !important;
+
     }
 
     .test {
