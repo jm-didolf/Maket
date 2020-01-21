@@ -154,7 +154,6 @@ body {
     }
 }
 
-
 .title {
     font-family: TT Lakes, Arial, sans-serif;
     height: 40px;
@@ -202,21 +201,16 @@ body {
 
 .info-block{
     margin-top: 24px;
-
 }
 
-
 .group__description {
-
     padding: 0 16px;
     letter-spacing: 0.2px;
     font-size: 14px;
     line-height: 18px;
-
 }
 
 .group__read-more{
-
     display: flex;
     align-items: center;
     margin-left: 24px;
