@@ -47,9 +47,12 @@ body {
         width:100%;
     }
 
+    .group{
+        width: 50%;
+    }
+
     .info-block__description {
         order: 0;
-        width: 312px;
         margin-top: 24px;
     }
 
@@ -58,6 +61,7 @@ body {
     }
 
     info-block__img {
+        width: 50%;
         order: 1;
         margin-left: 20px;
     }
@@ -224,6 +228,10 @@ body {
     align-items: center;
     margin-left: 24px;
     margin-top: 16px;
+}
+
+.info-block__img {
+    width: 50%;
 }
 
 .info-block__img img{
