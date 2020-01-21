@@ -72,6 +72,7 @@ body {
 @media screen and (max-width: 768px) {
     .upper-menu{
         display: flex !important;
+        min-width: max-content;
     }
 
     .title__second-title--hiden{
