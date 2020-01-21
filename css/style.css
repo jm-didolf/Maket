@@ -133,6 +133,9 @@ body {
         display: flex !important;
     }
 
+    .group__img {
+        width: 100% !important;
+    }
 
     .vert-line-left{
         display: none;
