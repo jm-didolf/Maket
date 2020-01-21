@@ -35,7 +35,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .info-block__full-text--visible::after {
+    .group__full-text--visible::after {
         content: 'Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера';
         display: block;
         margin-top: 20px;
@@ -51,24 +51,18 @@ body {
         width: 50%;
     }
 
-    .info-block__description {
+    .group__description {
         order: 0;
         margin-top: 24px;
     }
 
-    .info-block__read-more{
+    .group__read-more{
         order: 2;
-    }
-
-    info-block__img {
-        width: 50%;
-        order: 1;
-        margin-left: 20px;
     }
 }
 
 @media screen and (min-width: 1120px) {
-    .info-block__full-text--visible::after {
+    .group__full-text--visible::after {
         content: 'Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.';
         display: block;
         margin-top: 20px;
@@ -88,7 +82,7 @@ body {
         display: none;
     }
 
-    .icon-call{
+    .upper-menu__icon-call{
         margin-left: auto;
     }
 
@@ -102,19 +96,14 @@ body {
         width:100%;
     }
 
-    .info-block__description {
+    .group__description {
         order: 0;
         width: 312px;
         margin-top: 24px;
     }
 
-    .info-block__read-more{
+    .group__read-more{
         order: 2;
-    }
-
-    info-block__img {
-        order: 1;
-        margin-left: 20px;
     }
 
     .menu {
@@ -148,15 +137,15 @@ body {
         display: none;
     }
 
-    .icon-profile{
+    .upper-menu__icon-profile{
         display: none;
     }
 
-    .icon-chat{
+    .upper-menu__icon-chat{
         display: none;
     }
 
-    .icon-call{
+    .upper-menu__icon-call{
         display: none;
     }
 }
@@ -213,7 +202,7 @@ body {
 }
 
 
-.info-block__description {
+.group__description {
 
     padding: 0 16px;
     letter-spacing: 0.2px;
@@ -222,7 +211,7 @@ body {
 
 }
 
-.info-block__read-more{
+.group__read-more{
 
     display: flex;
     align-items: center;
@@ -230,11 +219,11 @@ body {
     margin-top: 16px;
 }
 
-.info-block__img {
+.group__img {
     width: 50%;
 }
 
-.info-block__img img{
+.group__img img{
     width: 100%;
     margin: 27px 0 27px 0;
 }
