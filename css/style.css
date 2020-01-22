@@ -67,10 +67,13 @@ body {
 @media screen and (max-width: 768px) {
     .upper-menu{
         display: flex !important;
-
     }
 
-    .upper-menu__icon {
+    .icon--hidden{
+        display: none;
+    }
+
+    .icon {
         margin:0 10px;
     }
 
@@ -83,7 +86,7 @@ body {
         display:none;
     }
 
-    .upper-menu__icon--call{
+    .icon--call{
         margin-left: auto !important;
     }
 
@@ -135,7 +138,7 @@ body {
         display: flex !important;
     }
 
-    .upper-menu__icon {
+    .icon {
         margin:0;
     }
 
@@ -147,15 +150,15 @@ body {
         display: none;
     }
 
-    .upper-menu__icon--profile{
+    .icon--profile{
         display: none;
     }
 
-    .upper-menu__icon--chat{
+    .icon--chat{
         display: none;
     }
 
-    .upper-menu__icon--call{
+    .icon--call{
         display: none;
     }
 }
@@ -259,34 +262,47 @@ body {
     height: 32px;
 }
 
-.upper-menu__icon {
+.icon {
     width: 40px;
     height: 40px;
     border-radius: 20px;
     border: none;
+    background-color: #FF3E79;
 }
 
 
-.upper-menu__icon--burger{
-    background: url('../include/icons/burger.svg') #FF3E79 no-repeat center;
+.icon--burger{
+    background-image: url('../include/icons/burger.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.upper-menu__icon--call {
-    background: url('../include/icons/call.svg') #FF3E79 no-repeat center;
+.icon--call {
+    background-image: url('../include/icons/call.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.upper-menu__icon--chat {
-    background: url('../include/icons/chat.svg') #FF3E79 no-repeat center;
+.icon--chat {
+    background-image: url('../include/icons/chat.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.upper-menu__icon--profile{
-    background: url('../include/icons/profile.svg') #FF3E79 no-repeat center;
+.icon--profile{
+    background-image: url('../include/icons/profile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.upper-menu__icon--repair {
-    background: url('../include/icons/repair.svg') #FF3E79 no-repeat center;
+.icon--repair {
+    background-image: url('../include/icons/repair.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.upper-menu__icon--checkstatus{
-    background: url('../include/icons/checkstatus.svg') #FF3E79 no-repeat center;
+.icon--checkstatus{
+    background-image: url('../include/icons/checkstatus.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
