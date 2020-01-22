@@ -35,11 +35,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .group__full-text--visible::after {
-        content: 'Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера';
-        display: block;
-        margin-top: 20px;
-    }
 
     .info-block {
         display: flex;
@@ -47,8 +42,12 @@ body {
         width:100%;
     }
 
-    .group{
+     .group{
         width: 50%;
+    }
+
+    .group__full-text--visible:nth-child(2){
+        display: none;
     }
 
     .group__description {
@@ -62,11 +61,7 @@ body {
 }
 
 @media screen and (min-width: 1120px) {
-    .group__full-text--visible::after {
-        content: 'Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.';
-        display: block;
-        margin-top: 20px;
-    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -75,7 +70,12 @@ body {
 
     }
 
-    .title__second-title--hiden{
+    .group__full-text--visible:nth-child(3){
+        display: none;
+    }
+
+
+    .title__second-title--hidden{
         display:none;
     }
 
@@ -96,7 +96,12 @@ body {
     }
 
     .upper-menu div:last-child{
-        padding-right 10px;
+        padding-right: 10px;
+    }
+
+    .vert-line-left{
+        margin: 0 20px;
+        padding: 0 !important;
     }
 
     .info-block {
@@ -105,13 +110,14 @@ body {
         width:100%;
     }
 
+
     .group__description {
         order: 0;
         width: auto;
         margin-top: 24px;
     }
 
-    .group__img {
+    .info-block__img {
         width: 100% !important;
     }
 
@@ -126,8 +132,11 @@ body {
     }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 540px) {
 
+    .group__full-text--visible:not(:first-child){
+        display: none;
+    }
 
     .menu {
         overflow: scroll;
@@ -147,7 +156,7 @@ body {
         display: flex !important;
     }
 
-    .group__img {
+    .info-block__img {
         width: 100% !important;
     }
 
@@ -231,11 +240,11 @@ body {
     margin-top: 16px;
 }
 
-.group__img {
+.info-block__img {
     width: 50%;
 }
 
-.group__img img{
+.info-block__img img{
     width: 100%;
     margin: 27px 0 27px 0;
 }
@@ -246,8 +255,26 @@ body {
     line-height: 24px;
     text-align: right;
     letter-spacing: -0.2px;
+    background: none;
+    border: none;
 }
 
 .read-more {
     font-weight: 600;
+    border: none;
+    background: none;
+    color: #1B1C21;
+
 }
+
+.icon-read-more {
+    height: 24px;
+}
+
+.vert-line {
+    border-left: 2px solid #EAEAEA;
+    border-radius: 1px;
+    height: 32px;
+
+}
+
