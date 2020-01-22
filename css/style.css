@@ -70,6 +70,10 @@ body {
 
     }
 
+    .upper-menu__icon {
+        margin:0 10px;
+    }
+
     .group__full-text--visible:nth-child(3){
         display: none;
     }
@@ -79,24 +83,8 @@ body {
         display:none;
     }
 
-    .test {
-        display: none;
-    }
-
-    .upper-menu__icon-call{
-        margin-left: auto;
-    }
-
-    .upper-menu div:nth-child(2n){
-        padding: 0 20px;
-    }
-
-    .upper-menu div:first-child{
-        padding-left: 10px;
-    }
-
-    .upper-menu div:last-child{
-        padding-right: 10px;
+    .upper-menu__icon--call{
+        margin-left: auto !important;
     }
 
     .vert-line-left{
@@ -109,7 +97,6 @@ body {
         flex-wrap: wrap;
         width:100%;
     }
-
 
     .group__description {
         order: 0;
@@ -144,16 +131,12 @@ body {
         white-space: nowrap;
     }
 
-    .test {
-        display: none;
-    }
-
-    .upper-menu div:nth-child(2n){
-        padding: 0 !important;
-    }
-
     .upper-menu{
         display: flex !important;
+    }
+
+    .upper-menu__icon {
+        margin:0;
     }
 
     .info-block__img {
@@ -164,15 +147,15 @@ body {
         display: none;
     }
 
-    .upper-menu__icon-profile{
+    .upper-menu__icon--profile{
         display: none;
     }
 
-    .upper-menu__icon-chat{
+    .upper-menu__icon--chat{
         display: none;
     }
 
-    .upper-menu__icon-call{
+    .upper-menu__icon--call{
         display: none;
     }
 }
@@ -264,7 +247,6 @@ body {
     border: none;
     background: none;
     color: #1B1C21;
-
 }
 
 .icon-read-more {
@@ -275,6 +257,36 @@ body {
     border-left: 2px solid #EAEAEA;
     border-radius: 1px;
     height: 32px;
+}
+
+.upper-menu__icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
 
 }
 
+.upper-menu__icon--burger{
+    background: url('../include/icons/burger.svg') #FF3E79 no-repeat center;
+}
+
+.upper-menu__icon--call {
+    background: url('../include/icons/call.svg') #FF3E79 no-repeat center;
+}
+
+.upper-menu__icon--chat {
+    background: url('../include/icons/chat.svg') #FF3E79 no-repeat center;
+}
+
+.upper-menu__icon--profile{
+    background: url('../include/icons/profile.svg') #FF3E79 no-repeat center;
+}
+
+.upper-menu__icon--repair {
+    background: url('../include/icons/repair.svg') #FF3E79 no-repeat center;
+}
+
+.upper-menu__icon--checkstatus{
+    background: url('../include/icons/checkstatus.svg') #FF3E79 no-repeat center;
+}
