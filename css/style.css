@@ -268,41 +268,31 @@ body {
     border-radius: 20px;
     border: none;
     background-color: #FF3E79;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 .icon--burger{
     background-image: url('../include/icons/burger.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
+ }
 
 .icon--call {
     background-image: url('../include/icons/call.svg');
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .icon--chat {
     background-image: url('../include/icons/chat.svg');
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .icon--profile{
     background-image: url('../include/icons/profile.svg');
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .icon--repair {
     background-image: url('../include/icons/repair.svg');
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .icon--checkstatus{
     background-image: url('../include/icons/checkstatus.svg');
-    background-repeat: no-repeat;
-    background-position: center;
 }
