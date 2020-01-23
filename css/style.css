@@ -28,7 +28,6 @@ body {
     width: auto;
     height: 88px;
     border-bottom: 1px solid #D9FFF5;
-    display: flex;
     background: #FFFFFF;
     justify-content: space-around;
     align-items: center;
@@ -205,7 +204,7 @@ body {
     border: 2px solid #B8FFEC;
     box-sizing: border-box;
     border-radius: 6px;
-    padding: 8px 9.3px 8px 16.54px;
+    padding: 8px 9px 8px 16px;
 }
 
 .info-block{
