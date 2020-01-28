@@ -74,6 +74,16 @@ body {
     color: #1B1C21;
 }
 
+.menu__button:not(.menu__button--active):hover,
+.block-mail__mail:hover,
+.block-tell__tel:hover,
+.menu-lang__button:not(.menu-lang__button--active):hover
+{
+    transition: opacity, color 0.2s ease-in-out;
+    opacity: 0.8;
+    color: #FF3E79;
+}
+
 .menu__group {
     display: flex;
 }

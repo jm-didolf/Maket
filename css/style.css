@@ -281,11 +281,10 @@ body {
 }
 
 .icon:hover {
-    transition: opacity 0.2s ease-in-out;
+    transition: opacity, scale 0.2s ease-in-out;
     transform: scale(1.1);
     opacity: 0.8;
 }
-
 
 .icon--burger{
     background-image: url('../include/icons/burger.svg');
@@ -310,3 +309,4 @@ body {
 .icon--checkstatus{
     background-image: url('../include/icons/checkstatus.svg');
 }
+
