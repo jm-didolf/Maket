@@ -1,14 +1,3 @@
-
-@-ms-viewport {
-    width: device-width;
-}
-@-o-viewport {
-    width: device-width;
-}
-@viewport {
-    width: device-width;
-}
-
 @font-face {
     font-family: 'TT Lakes';
     src: url(TTLakes-Bold.eot?#iefix) format("eot"),
