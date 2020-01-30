@@ -68,7 +68,7 @@ body {
 .brand-block {
     margin-top: 16px;
     margin-left: 16px;
-    overflow: scroll;
+    overflow: auto;
     display: flex;
 }
 
