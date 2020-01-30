@@ -22,7 +22,6 @@ window.onload = function() {
     let buttonReadMore = document.querySelector('.read-more');
         buttonReadMore.addEventListener("click", visibleMore);
 
-
 }
 
 
