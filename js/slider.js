@@ -1,7 +1,5 @@
 window.onload = function() {
 
-
-
    function visibleMore () {
        let hiddenElements = document.querySelectorAll('.brand-block__brands');
 
