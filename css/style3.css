@@ -18,8 +18,13 @@ body {
 }
 
 @media screen and (min-width: 768px){
-    .title-block{
-        height: 56px;
+   .brand-block {
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+    .brand-block__brands {
+        margin-bottom: 16px;
     }
 }
 
@@ -30,12 +35,12 @@ body {
     line-height: 24px;
     letter-spacing: -0.2px;
     text-transform: uppercase;
-    height: 80px;
+
 }
 
 .title-block__title{
     padding: 16px;
-}
+ }
 
 .brand-block {
     margin-top: 16px;
@@ -82,6 +87,20 @@ body {
 
 }
 
-.swiper-pagination {
+.group__read-more{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    margin-top: 16px;
+}
 
+.icon-read-more {
+    height: 24px;
+}
+
+.read-more {
+    font-weight: 600;
+    border: none;
+    background: none;
+    color: #1B1C21;
 }
