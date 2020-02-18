@@ -146,8 +146,9 @@ body {
 
 
 
-.swiper-wrapper{
-
+.swiper-pagination{
+    position: static !important;
+    margin-top: 16px;
 }
 
 .swiper-slide{
@@ -159,15 +160,15 @@ body {
 .swiper-pagination-bullet{
     width: 12px !important;
     height: 12px !important;
+    margin: 0 6px !important;
+
 }
 
 .swiper-pagination-bullet-active{
     background: #B5B6BC !important;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
-    margin: 0 6px !important;
-}
+
 
 
 
