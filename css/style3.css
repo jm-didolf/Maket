@@ -165,7 +165,9 @@ body {
     background: #B5B6BC !important;
 }
 
-
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 6px !important;
+}
 
 
 
