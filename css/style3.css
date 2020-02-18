@@ -21,7 +21,6 @@
 
 @media screen and (min-width: 768px) {
     .brand-block {
-        display: flex;
         flex-wrap: wrap;
         margin-left: 24px !important;
     }
@@ -140,4 +139,34 @@ body {
 .unvisible {
     display: none;
 }
+
+
+
+
+
+
+
+.swiper-wrapper{
+
+}
+
+.swiper-slide{
+    height: auto !important;
+    margin: 0;
+
+}
+
+.swiper-pagination-bullet{
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.swiper-pagination-bullet-active{
+    background: #B5B6BC !important;
+}
+
+
+
+
+
 

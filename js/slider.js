@@ -1,7 +1,9 @@
 window.onload = function() {
 
+    let hiddenElements = document.querySelectorAll('.brand-block__brands');
+
    function visibleMore () {
-       let hiddenElements = document.querySelectorAll('.brand-block__brands');
+
 
        for (let i = 0; i < hiddenElements.length; i++){
             if (hiddenElements[i].classList.contains("visible")) {
@@ -22,8 +24,28 @@ window.onload = function() {
     let buttonReadMore = document.querySelector('.read-more');
         buttonReadMore.addEventListener("click", visibleMore);
 
-}
 
+
+
+    if(window.innerWidth > 768) {
+
+        for (let i = 0; i < hiddenElements.length; i++) {
+            if (hiddenElements[i].classList.contains("swiper-slide")) {
+                hiddenElements[i].classList.remove('swiper-slide');
+            }
+
+        }
+    }
+
+        if(window.innerWidth < 768) {
+            let hiddenBrandBlock = document.querySelector('.brand-block').classList.remove('brand-block');
+
+    }
+
+
+
+
+}
 
 
 
